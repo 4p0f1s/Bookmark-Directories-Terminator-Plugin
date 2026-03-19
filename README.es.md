@@ -79,11 +79,11 @@ El filtro se detiene en el primer nivel que produce resultados, así los hits de
 
 | Sección | Origen |
 |---------|--------|
-| ** Stack** | Directorios actualmente en el stack pushd |
-| ** Marcadores** | Tus favoritos guardados con alias |
-| ** Recientes** | Últimos 10 dirs navegados vía el plugin (sesión actual) |
-| ** Frecuentes** | Top 10 de `~/.bash_history` / `~/.zsh_history` (comandos `cd`) |
-| ** Git Repos** | Repos detectados en `~`, `~/projects`, `~/dev`, `~/code`, `~/workspace`, `~/repos`, `~/src` |
+| **Stack** | Directorios actualmente en el stack pushd |
+| **Marcadores** | Tus favoritos guardados con alias |
+| **Recientes** | Últimos 10 dirs navegados vía el plugin (sesión actual) |
+| **Frecuentes** | Top 10 de `~/.bash_history` / `~/.zsh_history` (comandos `cd`) |
+| **Git Repos** | Repos detectados en `~`, `~/projects`, `~/dev`, `~/code`, `~/workspace`, `~/repos`, `~/src` |
 
 ---
 
@@ -102,8 +102,8 @@ cp bookmark_directories.py ~/.config/terminator/plugins/
 
 ## Gestión de marcadores
 
-- Botón ** Guardar aquí** (arriba a la derecha) - guarda el directorio actual con alias opcional. Incluye explorador gráfico de carpetas (`...`).
-- Botón ** Eliminar** - borra el marcador seleccionado (solo activo en la sección Marcadores).
+- Botón **Guardar aquí** (arriba a la derecha) - guarda el directorio actual con alias opcional. Incluye explorador gráfico de carpetas (`...`).
+- Botón **Eliminar** - borra el marcador seleccionado (solo activo en la sección Marcadores).
 - Los marcadores se guardan en `~/.config/terminator/bm_bookmarks.json` y persisten entre sesiones.
 
 ---

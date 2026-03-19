@@ -79,11 +79,11 @@ Results stop at the first tier that produces matches, so prefix hits always appe
 
 | Section | Source |
 |---------|--------|
-| ** Stack** | Directories currently on the pushd stack |
-| ** Bookmarks** | Your saved favourites with aliases |
-| ** Recent** | Last 10 directories navigated via the plugin (current session) |
-| ** Frequent** | Top 10 from `~/.bash_history` / `~/.zsh_history` `cd` commands |
-| ** Git Repos** | Repos found under `~`, `~/projects`, `~/dev`, `~/code`, `~/workspace`, `~/repos`, `~/src` |
+| **Stack** | Directories currently on the pushd stack |
+| **Bookmarks** | Your saved favourites with aliases |
+| **Recent** | Last 10 directories navigated via the plugin (current session) |
+| **Frequent** | Top 10 from `~/.bash_history` / `~/.zsh_history` `cd` commands |
+| **Git Repos** | Repos found under `~`, `~/projects`, `~/dev`, `~/code`, `~/workspace`, `~/repos`, `~/src` |
 
 ---
 
@@ -102,8 +102,8 @@ cp bookmark_directories.py ~/.config/terminator/plugins/
 
 ## Managing Bookmarks
 
-- ** Save here** button (top-right of the popup) - saves the current directory with an optional alias. Includes a folder browser (`...`).
-- ** Delete** button - removes the selected bookmark (only active when a Bookmarks entry is selected).
+- **Save here** button (top-right of the popup) - saves the current directory with an optional alias. Includes a folder browser (`...`).
+- **Delete** button - removes the selected bookmark (only active when a Bookmarks entry is selected).
 - Bookmarks are stored in `~/.config/terminator/bm_bookmarks.json` and persist across sessions.
 
 ---
